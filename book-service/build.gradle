@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+}
+
+version 'unspecified'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    implementation libs.postgresql
+    compileOnly libs.lombok
+    annotationProcessor libs.lombok
+    implementation libs.swagger
+    implementation libs.swaggerui
+    implementation libs.springJpa
+    implementation libs.springWeb
+    implementation libs.liquibase
+    implementation libs.mapstruct
+    implementation libs.validation
+    annotationProcessor libs.mapstructProcessor
+    implementation libs.springValidation
+    implementation libs.aspectOriented
+    implementation libs.junitJupiterEngine
+    implementation libs.junitJupiterApi
+
+
+
+
+    implementation 'org.springframework.boot:spring-boot-starter'
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+    }
+
+}

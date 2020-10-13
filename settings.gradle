@@ -1,0 +1,5 @@
+rootProject.name = 'BookSaler'
+include 'user-service'
+include 'book-service'
+include 'saler-service'
+
