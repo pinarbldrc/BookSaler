@@ -1,4 +1,4 @@
-#kutuphane satis
+#  kutuphane satis
 Kullanicilarin karakterlerine gore hangi kitaplari aldiklari tespit ederek yapan bir uygulamadir
 
 ## ayar komutlari
